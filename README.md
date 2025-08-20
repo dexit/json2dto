@@ -11,10 +11,46 @@ can quickly become a chore. Inspired by Json2Typescript style tools, we built on
 ## Web Version
 
 Try it out at [https://json2dto.atymic.dev](https://json2dto.atymic.dev)  
-The web version has all of the same tools as the cli version in an easy to use GUI. When generating nested DTOs, the 
-tool will create a zip file.
+The web version has all of the same tools as the cli version in an easy to use React-based GUI. Features include:
+
+- **Interactive JSON Editor**: Real-time JSON validation and formatting
+- **Live DTO Generation**: Instant preview of generated PHP DTOs
+- **Multiple PHP Versions**: Support for PHP 7.4+ typed properties and PHP 8.0+ attributes
+- **Nested DTO Support**: Automatic generation of complex nested structures
+- **Usage Examples**: Comprehensive examples showing real-world DTO usage patterns
+- **CLI Documentation**: Complete guide for local development usage
+
+When generating nested DTOs, the tool will create a zip file containing all related DTO classes.
 
 [![](https://repository-images.githubusercontent.com/231837839/14ed4680-2fb2-11ea-81fe-f06c5038b0dd)](https://json2dto.atymic.dev)
+
+## Complete Solution Tree
+
+This repository provides a complete solution for working with DTOs:
+
+### 🎯 **Frontend (React)**
+- Modern React + TypeScript application
+- Real-time JSON validation and DTO generation
+- Interactive examples and documentation
+- Responsive design with Tailwind CSS
+
+### ⚙️ **Backend (PHP)**
+- Robust DTO generation engine
+- Support for multiple PHP versions
+- Flexible and strict DTO modes
+- Comprehensive validation
+
+### 📚 **Examples & Documentation**
+- Real-world usage patterns
+- Service layer implementations
+- API controller examples
+- Best practices and guidelines
+
+### 🛠️ **Development Tools**
+- CLI tool for local development
+- Docker support for easy deployment
+- Comprehensive test suite
+- CI/CD pipeline
 
 ## CLI Tool
 

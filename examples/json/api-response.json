@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "role": "user"
+    }
+  ],
+  "pagination": {
+    "current_page": 1,
+    "total_pages": 5,
+    "per_page": 10,
+    "total_items": 50
+  },
+  "meta": {
+    "request_id": "abc123",
+    "timestamp": "2023-01-01T12:00:00Z"
+  }
+}

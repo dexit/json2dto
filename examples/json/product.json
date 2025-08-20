@@ -1,0 +1,19 @@
+{
+  "id": 123,
+  "name": "Wireless Headphones",
+  "description": "High-quality wireless headphones",
+  "price": 199.99,
+  "currency": "USD",
+  "in_stock": true,
+  "category": {
+    "id": 5,
+    "name": "Electronics",
+    "slug": "electronics"
+  },
+  "tags": ["wireless", "audio", "bluetooth"],
+  "specifications": {
+    "battery_life": "30 hours",
+    "weight": "250g",
+    "color": "black"
+  }
+}
