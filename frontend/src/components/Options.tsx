@@ -107,4 +107,3 @@ const Options: React.FC<OptionsProps> = ({ options, onChange }) => {
 };
 
 export default Options;
-}
