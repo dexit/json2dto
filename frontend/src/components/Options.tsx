@@ -52,9 +52,9 @@ const Options: React.FC<OptionsProps> = ({ options, onChange }) => {
             className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
             id="typed"
           >
-            <option value="v2_doc">PHP &lt; 7.4 (Docblock Types)</option>
-            <option value="v2_typed">PHP &gt;= 7.4 (Typed Properties)</option>
-            <option value="v3">PHP &gt;= 8.0 (Typed + Attributes)</option>
+            <option value="v2_doc">PHP < 7.4 (Docblock Types)</option>
+            <option value="v2_typed">PHP >= 7.4 (Typed Properties)</option>
+            <option value="v3">PHP >= 8.0 (Typed + Attributes)</option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
             <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -107,4 +107,3 @@ const Options: React.FC<OptionsProps> = ({ options, onChange }) => {
 };
 
 export default Options;
-}
